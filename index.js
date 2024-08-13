@@ -11,8 +11,8 @@ const app = express();
 
 // envVariables to process.env:
 require("dotenv").config({ path: __dirname + "/.env" });
-const HOST = process.env?.HOST || "127.0.0.1";
-const PORT = process.env?.PORT || 8000;
+const HOST = process.env?.HOST || "0.0.0.0";
+const PORT = process.env?.PORT || 10000;
 
 // asyncErrors to errorHandler:
 require("express-async-errors");
