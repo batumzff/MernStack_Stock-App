@@ -1,5 +1,5 @@
 # STOCK MANAGEMENT API
-
+![Checkout](https://github.com/batumzff/MernStack_Stock-App/blob/main/MernStack_Stock-App.gif)
 ### ERD:
 
 ![ERD](./erdStockAPI.png)
